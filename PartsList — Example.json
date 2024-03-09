@@ -1,236 +1,234 @@
-// Visual Part block examples, copy them on PartsList.json file.
-// Use your own titles or default NFSW titles from language files.
 [
-  {
-	"PartType": "BODYKIT",
-	"PartName": "KIT11",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",  
-	"Title": "%default%",
-	"PoliceKit": false
-  },
-  {
-    "PartType": "BODYKIT",
-	"PartName": "KIT901",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%",
-	"PoliceKit": true
-  },
-  {
-    "PartType": "BODYKIT",
-	"PartName": "KITW01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%",
-	"PoliceKit": false
-  },
-  {
-    "PartType": "HOOD",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%",
-	"CarbonPart": false
-  },
-  {
-    "PartType": "HOOD",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%",
-	"CarbonPart": true
-  },
-  {
-    "PartType": "SPOILER",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%",
-	"CarbonPart": false
-  },
-  {
-    "PartType": "SPOILER",
-	"PartName": "STYLE02",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%",
-	"CarbonPart": true
-  },
-  {
-    "PartType": "DRIVER",
-	"PartName": "FEMALE",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%",
-	"Icon": "%default%"
-  },
-  {
-    "PartType": "DRIVER",
-	"PartName": "",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%",
-	"Icon": "%default%"
-  },
-  {
-    "PartType": "HEADLIGHTS",
-	"PartName": "",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "HEADLIGHTS",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "BRAKELIGHTS",
-	"PartName": "",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "BRAKELIGHTS",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "SIDEMIRRORS",
-	"PartName": "",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "SIDEMIRRORS",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "ROOF",
-	"PartName": "",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "ROOF",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "ROOFSCOOP",
-	"PartName": "",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "ROOFSCOOP",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "TRUNK",
-	"PartName": "",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "TRUNK",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "EXTRA",
-	"PartName": "",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "EXTRA",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "WINGS",
-	"PartName": "",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "WINGS",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "INTERIOR",
-	"PartName": "",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "INTERIOR",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "GRILLE",
-	"PartName": "",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "GRILLE",
-	"PartName": "STYLE01",
-	"CarModel": "SKYLINE",
-	"ShortDescTitle": "%default%",
-	"Title": "%default%"
-  },
-  {
-    "PartType": "WHEELS",
-	"PartName": "STYLE01",
-	"Brand": "BBS",
-	"Sizes": "17,18,19,20",
-	"Title": "%default%",
-	"Icon": "%default%"
-  },
-  {
-    "PartType": "LICENSEPLATE",
-	"PartName": "NFSMODERN_HP10",
-	"Title": "%default%",
-	"Icon": "%default%"
-  },
-  {
-    "PartType": "NEON",
-	"PartName": "WHITE",
-	"Title": "%default%",
-	"Icon": "%default%"
-  }
+   {
+      "PartType":"BODYKIT",
+      "PartName":"KIT11",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%",
+      "PoliceKit":false
+   },
+   {
+      "PartType":"BODYKIT",
+      "PartName":"KIT901",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%",
+      "PoliceKit":true
+   },
+   {
+      "PartType":"BODYKIT",
+      "PartName":"KITW01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%",
+      "PoliceKit":false
+   },
+   {
+      "PartType":"HOOD",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%",
+      "CarbonPart":false
+   },
+   {
+      "PartType":"HOOD",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%",
+      "CarbonPart":true
+   },
+   {
+      "PartType":"SPOILER",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%",
+      "CarbonPart":false
+   },
+   {
+      "PartType":"SPOILER",
+      "PartName":"STYLE02",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%",
+      "CarbonPart":true
+   },
+   {
+      "PartType":"DRIVER",
+      "PartName":"FEMALE",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%",
+      "Icon":"%default%"
+   },
+   {
+      "PartType":"DRIVER",
+      "PartName":"",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%",
+      "Icon":"%default%"
+   },
+   {
+      "PartType":"HEADLIGHTS",
+      "PartName":"",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"HEADLIGHTS",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"BRAKELIGHTS",
+      "PartName":"",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"BRAKELIGHTS",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"SIDEMIRRORS",
+      "PartName":"",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"SIDEMIRRORS",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"ROOF",
+      "PartName":"",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"ROOF",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"ROOFSCOOP",
+      "PartName":"",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"ROOFSCOOP",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"TRUNK",
+      "PartName":"",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"TRUNK",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"EXTRA",
+      "PartName":"",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"EXTRA",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"WINGS",
+      "PartName":"",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"WINGS",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"INTERIOR",
+      "PartName":"",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"INTERIOR",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"GRILLE",
+      "PartName":"",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"GRILLE",
+      "PartName":"STYLE01",
+      "CarModel":"SKYLINE",
+      "ShortDescTitle":"%default%",
+      "Title":"%default%"
+   },
+   {
+      "PartType":"WHEELS",
+      "PartName":"STYLE01",
+      "Brand":"BBS",
+      "Sizes":"17,18,19,20",
+      "Title":"%default%",
+      "Icon":"%default%"
+   },
+   {
+      "PartType":"LICENSEPLATE",
+      "PartName":"NFSMODERN_HP10",
+      "Title":"%default%",
+      "Icon":"%default%"
+   },
+   {
+      "PartType":"NEON",
+      "PartName":"WHITE",
+      "Title":"%default%",
+      "Icon":"%default%"
+   }
 ]

@@ -1,14 +1,13 @@
-// Default nodes is taken from VLT base.
 {
-  "DefaultShortDesc": "GM_CATALOG_WEV2_%s_KIT",
-  "DefaultCommonShortDesc": "GM_CATALOG_000049F3",
-  "DefaultLangTitlePrefix": "GM_CATALOG_WEV2_",
-  "KitDefaultNode": "0x4a2bb341",
-  "HoodDefaultNode": "0x5f2625b8",
-  "SpoilerDefaultNode": "0x450147aa",
-  "WheelsDefaultNode": "0x31fe545b",
-  "LPlateDefaultNode": "0xae2ff0cb",
-  "NeonDefaultNode": "0xd54f4798",
-  "DriverDefaultNode": "0x7db133ce",
-  "ExtraSlotDefaultNode": "0x5f2625b8"
+   "DefaultShortDesc":"GM_CATALOG_WEV2_%s_KIT",
+   "DefaultCommonShortDesc":"GM_CATALOG_000049F3",
+   "DefaultLangTitlePrefix":"GM_CATALOG_WEV2_",
+   "KitDefaultNode":"0x4a2bb341",
+   "HoodDefaultNode":"0x5f2625b8",
+   "SpoilerDefaultNode":"0x450147aa",
+   "WheelsDefaultNode":"0x31fe545b",
+   "LPlateDefaultNode":"0xae2ff0cb",
+   "NeonDefaultNode":"0xd54f4798",
+   "DriverDefaultNode":"0x7db133ce",
+   "ExtraSlotDefaultNode":"0x5f2625b8"
 }
