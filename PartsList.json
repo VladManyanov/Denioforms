@@ -1,0 +1,21 @@
+// Place any Visual Part block from PartsList - Example.json here! 
+// Any car or part type combination allowed.
+// These 2 Visual Part blocks left here as example.
+[
+  {
+	"PartType": "BODYKIT",
+	"PartName": "KIT11",
+	"CarModel": "SKYLINE",
+	"ShortDescTitle": "GM_CATALOG_000006A5",  
+	"Title": "GM_CATALOG_000049A4",
+	"PoliceKit": false
+  },
+  {
+    "PartType": "SPOILER",
+	"PartName": "STYLE01",
+	"CarModel": "SKYLINE",
+	"ShortDescTitle": "GM_CATALOG_000006A5",
+	"Title": "%default%",
+	"CarbonPart": false
+  }
+]	
