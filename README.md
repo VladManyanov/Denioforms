@@ -7,4 +7,6 @@ PartsList.json: *Place any Visual Part block from PartsList - Example.json here.
 
 PartsList - Example.json: *Visual Part block examples, copy them on PartsList.json file. Use your own titles or default NFSW titles from language files.*
 
+Settings.json: *Tool & titles settings. Default nodes values was taken from VLT base.*
+
 External libs/code: [Gson](https://github.com/google/gson), [JenkinsHash calc from Aaron tool](https://github.com/NFSTools/Aaron/blob/master/Aaron/Utils/Hashing.cs)
