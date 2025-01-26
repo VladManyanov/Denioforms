@@ -1,5 +1,7 @@
 package util;
 
+import java.util.List;
+
 import com.google.gson.annotations.SerializedName;
 
 public final class JsonDataClasses {
@@ -180,6 +182,10 @@ public final class JsonDataClasses {
 		private String driverDefaultNode; 
 		@SerializedName("ExtraSlotDefaultNode")
 		private String extraSlotDefaultNode;
+		@SerializedName("WheelsDefaultPartId")
+		private int wheelsDefaultPartId;
+		@SerializedName("WheelsDefaultMaxLOD")
+		private int wheelsDefaultMaxLOD;
 		
 		public String getDefaultShortDesc() {
 			return defaultShortDesc;
@@ -256,6 +262,171 @@ public final class JsonDataClasses {
 		}
 		public void setExtraSlotDefaultNode(String extraSlotDefaultNode) {
 			this.extraSlotDefaultNode = extraSlotDefaultNode;
+		}
+		
+		public int getWheelsDefaultPartId() {
+			return wheelsDefaultPartId;
+		}
+		public void setWheelsDefaultPartId(int wheelsDefaultPartId) {
+			this.wheelsDefaultPartId = wheelsDefaultPartId;
+		}
+		
+		public int getWheelsDefaultMaxLOD() {
+			return wheelsDefaultMaxLOD;
+		}
+		public void setWheelsDefaultMaxLOD(int wheelsDefaultMaxLOD) {
+			this.wheelsDefaultMaxLOD = wheelsDefaultMaxLOD;
 		} 
+	}
+	
+	//
+	
+	public static class GlobalCCarPartsObject {
+		@SerializedName("Name")
+		private String name; 
+		@SerializedName("Priority")
+		private int priority; 
+		@SerializedName("Parts")
+		private List<GlobalCCarPartsEntry> parts;
+		
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		
+		public int getPriority() {
+			return priority;
+		}
+		public void setPriority(int priority) {
+			this.priority = priority;
+		}
+		
+		public List<GlobalCCarPartsEntry> getParts() {
+			return parts;
+		}
+		public void setParts(List<GlobalCCarPartsEntry> parts) {
+			this.parts = parts;
+		}
+	}
+	
+	public static class GlobalCCarPartsEntry {
+		@SerializedName("Name")
+		private String name; 
+		@SerializedName("Attributes")
+		private List<Object> attributes;
+		
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		
+		public List<Object> getAttributes() {
+			return attributes;
+		}
+		public void setAttributes(List<Object> attributes) {
+			this.attributes = attributes;
+		}
+	}
+	
+	public static class GlobalCAttrsParamBool {
+		@SerializedName("Name")
+		private String name; 
+		@SerializedName("Value")
+		private boolean value; 
+		@SerializedName("Strings")
+		private List<String> strings;
+		
+		public GlobalCAttrsParamBool (String name, boolean value, List<String> strings) {
+			this.name = name;
+			this.value = value;
+			this.strings = strings;
+		}
+		
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		
+		public boolean isValue() {
+			return value;
+		}
+		public void setValue(boolean value) {
+			this.value = value;
+		}
+		
+		public List<String> getStrings() {
+			return strings;
+		}
+		public void setStrings(List<String> strings) {
+			this.strings = strings;
+		}
+	}
+	
+	public static class GlobalCAttrsParamStrings {
+		@SerializedName("Name")
+		private String name; 
+		@SerializedName("Strings")
+		private List<String> strings;
+		
+		public GlobalCAttrsParamStrings (String name, List<String> strings) {
+			this.name = name;
+			this.strings = strings;
+		}
+		
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		
+		public List<String> getStrings() {
+			return strings;
+		}
+		public void setStrings(List<String> strings) {
+			this.strings = strings;
+		}
+	}
+	
+	public static class GlobalCAttrsParamDec {
+		@SerializedName("Name")
+		private String name; 
+		@SerializedName("Value")
+		private long value; 
+		@SerializedName("Strings")
+		private List<String> strings;
+		
+		public GlobalCAttrsParamDec (String name, long value, List<String> strings) {
+			this.name = name;
+			this.value = value;
+			this.strings = strings;
+		}
+		
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		
+		public long getValue() {
+			return value;
+		}
+		public void setValue(long value) {
+			this.value = value;
+		}
+		
+		public List<String> getStrings() {
+			return strings;
+		}
+		public void setStrings(List<String> strings) {
+			this.strings = strings;
+		}
 	}
 }

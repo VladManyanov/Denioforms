@@ -89,7 +89,7 @@ public class VLTFiller {
 	    Files.write(Paths.get("VLTNodes.txt"), vltOutput, StandardCharsets.UTF_8);
 	}
 	
-	private void loadSettingsJson() throws IOException {
+	public void loadSettingsJson() throws IOException {
 		Reader reader = Files.newBufferedReader(Paths.get("Settings.json"), StandardCharsets.UTF_8);
 		settings = new Gson().fromJson(reader, new TypeToken<SettingsObject>() {}.getType());
 	    reader.close();
@@ -207,7 +207,7 @@ public class VLTFiller {
 	private String prepareVLTBlock(PartsListObject partObj, String typeDefaultNode,
 			String partIcon, String partFullName) {
 		StringBuilder vltBlock = new StringBuilder();
-		long partHash = getUnsignedInt(calcBinMemoryHash(partFullName));
+		long partHash = getUnsignedBinMemHash(partFullName);
 		long baseCarHash = getBaseCarHash(partObj);
 		String wheelsBrand = getWheelsBrandString(partObj);
 		
@@ -247,7 +247,7 @@ public class VLTFiller {
 	
 	private long getBaseCarHash(PartsListObject partObj) {
 		return partObj.getRules().isAllowBaseCarHash() ? 
-				getUnsignedInt(calcBinMemoryHash(partObj.getCarModel())) : 0L;
+				getUnsignedBinMemHash(partObj.getCarModel()) : 0L;
 	}
 	
 	private String getShortDescTitle(PartsListObject partObj) {
@@ -307,9 +307,15 @@ public class VLTFiller {
 		return title;
 	}
 	
+	//
+	
+	public SettingsObject getSettings() {
+		return settings;
+	}
+	
 	// Utils
 	
-	private int calcBinMemoryHash(String carModel) {
+	public int calcBinMemoryHash(String carModel) {
 		int hash = 0xFFFFFFFF;
 		for (char c : carModel.toCharArray()) {
 			hash = hash * 33 + (int) c;
@@ -317,12 +323,16 @@ public class VLTFiller {
 		return hash;
 	}
 	
-	private String formatHexToString(int value) {
+	public String formatHexToString(int value) {
 		return "0x" + String.format("%08X", value & 0xFFFFFFFF);
 	}
 	
-	private long getUnsignedInt(int signed) {
+	public long getUnsignedInt(int signed) {
 	    return signed >= 0 ? signed : 2 * (long) Integer.MAX_VALUE + 2 + signed;
+	}
+	
+	public long getUnsignedBinMemHash(String value) {
+		return getUnsignedInt(calcBinMemoryHash(value));
 	}
 	
 	public String getVLTNodeHash(String partFullName) {
